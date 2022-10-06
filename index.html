@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="asset1.svg" alt="" />
+    <h1>Check Your BMI</h1>
+    <p class="caption">
+      Enter your weight and height below to check your BMI results
+    </p>
+    <div class="container-form">
+      <label for="weight">Input your weight in here (KG)</label>
+      <input type="text" id="input-weight" />
+      <label for="height">Input your height in here (CM)</label>
+      <input type="text" id="input-height" />
+      <button>Calculate BMI</button>
+    </div>
+    <p class="capt-hasil">
+      Your BMI is <span class="bmi">23.</span> Which means you are
+      <span class="result">Normal</span>
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
